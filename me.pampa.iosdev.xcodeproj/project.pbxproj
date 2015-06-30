@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B845C4B81B4271B70002C345 /* WeChatSharing in Resources */ = {isa = PBXBuildFile; fileRef = B845C4B71B4271B70002C345 /* WeChatSharing */; };
+		B845C4BA1B4272280002C345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B845C4B91B4272280002C345 /* UIKit.framework */; };
+		B845C4BC1B4272320002C345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B845C4BB1B4272320002C345 /* Foundation.framework */; };
+		B845C4BE1B4272380002C345 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B845C4BD1B4272380002C345 /* CoreGraphics.framework */; };
+		B845C4C01B4272530002C345 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B845C4BF1B4272530002C345 /* libWeChatSDK.a */; };
 		B8AFDCAC1B420E5B00FAE17F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AFDCAB1B420E5B00FAE17F /* AppDelegate.swift */; };
 		B8AFDCAE1B420E5B00FAE17F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AFDCAD1B420E5B00FAE17F /* ViewController.swift */; };
 		B8AFDCB11B420E5B00FAE17F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8AFDCAF1B420E5B00FAE17F /* Main.storyboard */; };
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B845C4B71B4271B70002C345 /* WeChatSharing */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WeChatSharing; sourceTree = "<group>"; };
+		B845C4B91B4272280002C345 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B845C4BB1B4272320002C345 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B845C4BD1B4272380002C345 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B845C4BF1B4272530002C345 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = me.pampa.iosdev/WeChatSharing/Resources/libWeChatSDK.a; sourceTree = "<group>"; };
 		B8AFDCA61B420E5B00FAE17F /* me.pampa.iosdev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = me.pampa.iosdev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AFDCAA1B420E5B00FAE17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8AFDCAB1B420E5B00FAE17F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +53,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B845C4C01B4272530002C345 /* libWeChatSDK.a in Frameworks */,
+				B845C4BE1B4272380002C345 /* CoreGraphics.framework in Frameworks */,
+				B845C4BC1B4272320002C345 /* Foundation.framework in Frameworks */,
+				B845C4BA1B4272280002C345 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,10 @@
 		B8AFDC9D1B420E5A00FAE17F = {
 			isa = PBXGroup;
 			children = (
+				B845C4BF1B4272530002C345 /* libWeChatSDK.a */,
+				B845C4BD1B4272380002C345 /* CoreGraphics.framework */,
+				B845C4BB1B4272320002C345 /* Foundation.framework */,
+				B845C4B91B4272280002C345 /* UIKit.framework */,
 				B8AFDCA81B420E5B00FAE17F /* me.pampa.iosdev */,
 				B8AFDCBE1B420E5B00FAE17F /* me.pampa.iosdevTests */,
 				B8AFDCA71B420E5B00FAE17F /* Products */,
@@ -77,6 +95,7 @@
 		B8AFDCA81B420E5B00FAE17F /* me.pampa.iosdev */ = {
 			isa = PBXGroup;
 			children = (
+				B845C4B71B4271B70002C345 /* WeChatSharing */,
 				B8AFDCAB1B420E5B00FAE17F /* AppDelegate.swift */,
 				B8AFDCAD1B420E5B00FAE17F /* ViewController.swift */,
 				B8AFDCAF1B420E5B00FAE17F /* Main.storyboard */,
@@ -193,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8AFDCB11B420E5B00FAE17F /* Main.storyboard in Resources */,
+				B845C4B81B4271B70002C345 /* WeChatSharing in Resources */,
 				B8AFDCB61B420E5B00FAE17F /* LaunchScreen.xib in Resources */,
 				B8AFDCB31B420E5B00FAE17F /* Images.xcassets in Resources */,
 			);
@@ -342,7 +362,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = me.pampa.iosdev/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/me.pampa.iosdev",
+					"\"$(SRCROOT)/me.pampa.iosdev/libWeChatSDK.a\"",
+					"\"$(SRCROOT)/me.pampa.iosdev/WXApi.h\"",
+					"\"$(SRCROOT)/me.pampa.iosdev/WXApiObject.h\"",
+					"$(PROJECT_DIR)/me.pampa.iosdev/WeChatSharing/Resources",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pampa/app/ios-libs/me.pampa.iosdev/me.pampa.iosdev/WeChatSharing/Resources/WeChatSharing-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -352,7 +381,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = me.pampa.iosdev/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/me.pampa.iosdev",
+					"\"$(SRCROOT)/me.pampa.iosdev/libWeChatSDK.a\"",
+					"\"$(SRCROOT)/me.pampa.iosdev/WXApi.h\"",
+					"\"$(SRCROOT)/me.pampa.iosdev/WXApiObject.h\"",
+					"$(PROJECT_DIR)/me.pampa.iosdev/WeChatSharing/Resources",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/pampa/app/ios-libs/me.pampa.iosdev/me.pampa.iosdev/WeChatSharing/Resources/WeChatSharing-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +447,7 @@
 				B8AFDCC71B420E5B00FAE17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8AFDCC81B420E5B00FAE17F /* Build configuration list for PBXNativeTarget "me.pampa.iosdevTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +456,7 @@
 				B8AFDCCA1B420E5B00FAE17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
